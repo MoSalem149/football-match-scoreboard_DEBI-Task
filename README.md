@@ -34,4 +34,4 @@ Here are some screenshots of the application:
 
 1. Clone the repository to your local machine using:
    ```bash
-   git clone https://github.com/MoSalem149v2/football-match-scoreboard_DEBI-Task.git
+   git clone https://github.com/MoSalem149/football-match-scoreboard_DEBI-Task.git
