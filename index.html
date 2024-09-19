@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football Match</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="stadium">
+      <header class="scoreboard">
+        <h1>Football Match</h1>
+        <div class="scores">
+          <div class="team1-score">
+            <h2>Bayern Munich</h2>
+            <p>Score: <span id="score1">0</span></p>
+          </div>
+          <div class="team2-score">
+            <h2>Atletico Madrid</h2>
+            <p>Score: <span id="score2">0</span></p>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="team" id="team1">
+          <h3>Bayern Munich (Team 1)</h3>
+          <p id="goalkeeper1"></p>
+          <ul id="fieldPlayers1"></ul>
+        </div>
+        <div class="team" id="team2">
+          <h3>Atletico Madrid (Team 2)</h3>
+          <p id="goalkeeper2"></p>
+          <ul id="fieldPlayers2"></ul>
+        </div>
+        <button id="showPlayers">Show All Players</button>
+        <button id="makeSubstitution">Make Substitution</button>
+        <h3>Match Odds</h3>
+        <p>Team 1: <span id="team1Odds"></span></p>
+        <p>Draw: <span id="drawOdds"></span></p>
+        <p>Team 2: <span id="team2Odds"></span></p>
+        <h3 id="likelyWinner"></h3>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
